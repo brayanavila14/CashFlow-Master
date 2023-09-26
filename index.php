@@ -33,21 +33,21 @@
         <section class="fast-actions">
             <h2>Acciones Rápidas</h2>
             <div class="quick-action">
-                <a href="caja_registradora.html">
-                    <img src="caja_registradora_icon.png" alt="Ícono de Caja Registradora">
+                <a href="">
+                    <img src="img/caja-registradora.png" alt="Ícono de Caja Registradora">
                     <p>Abrir Caja Registradora</p>
                 </a>
             </div>
             <div class="quick-action">
-                <a href="agregar_producto.html">
-                    <img src="agregar_producto_icon.png" alt="Ícono de Agregar Producto">
+                <a href="">
+                    <img src="img/agregar.png" alt="Ícono de Agregar Producto">
                     <p>Agregar Producto</p>
                 </a>
             </div>
             <div class="quick-action">
-                <a href="Ingresar_cuenta.php">
-                    <img src="Ingresar_cuenta_icon.png" alt="Ícono de Ingresar cuenta">
-                    <p>Ingresar cuenta</p>
+                <a href="">
+                    <img src="img/extracto-bancario.png" alt="Ícono de Registrar Venta">
+                    <p>Registrar Venta</p>
                 </a>
             </div>
         <!-- Agrega más acciones rápidas según sea necesario -->
