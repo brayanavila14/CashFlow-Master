@@ -30,9 +30,27 @@
             <h2>Alertas</h2>
             <!-- Aquí puedes mostrar alertas visuales -->
         </section>
-        <section class="quick-actions">
+        <section class="fast-actions">
             <h2>Acciones Rápidas</h2>
-            <!-- Aquí puedes mostrar botones para acciones rápidas -->
+            <div class="quick-action">
+                <a href="caja_registradora.html">
+                    <img src="caja_registradora_icon.png" alt="Ícono de Caja Registradora">
+                    <p>Abrir Caja Registradora</p>
+                </a>
+            </div>
+            <div class="quick-action">
+                <a href="agregar_producto.html">
+                    <img src="agregar_producto_icon.png" alt="Ícono de Agregar Producto">
+                    <p>Agregar Producto</p>
+                </a>
+            </div>
+            <div class="quick-action">
+                <a href="Ingresar_cuenta.php">
+                    <img src="Ingresar_cuenta_icon.png" alt="Ícono de Ingresar cuenta">
+                    <p>Ingresar cuenta</p>
+                </a>
+            </div>
+        <!-- Agrega más acciones rápidas según sea necesario -->
         </section>
     </main>
     <footer>
