@@ -1,25 +1,18 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
 
-header {
+#header {
     background-color: #0077b6;
     color: white;
     text-align: center;
     padding: 1rem 0;
 }
 
-header a {
+#header a {
     color: white;
     text-decoration: none;
     margin-left: 1rem;
 }
 
-main {
+#main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;

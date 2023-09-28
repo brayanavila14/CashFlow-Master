@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../css/productos.css">
 </head>
 <body>
-    <header>
+    <div id="header">
         <h1>Lista de Productos</h1>
         <a href="agregar_producto.html">Agregar Producto</a>
-    </header>
-    <main>
+    </div>
+    <div id="main">
         <input type="text" id="search" placeholder="Buscar por nombre o código">
         <button id="searchBtn">Buscar</button>
         <table>
@@ -40,10 +40,6 @@
                 <!-- Fin del ejemplo de producto -->
             </tbody>
         </table>
-    </main>
-    <footer>
-        <p>&copy; 2023 CashFlow Master</p>
-    </footer>
-    <script src="scripts.js"></script>
+    </div>
 </body>
 </html>

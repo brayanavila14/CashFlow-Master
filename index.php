@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CashFlow Master</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="library/js/jquery-3.7.0.js"></script>
 </head>
 <body>
     <header>
@@ -21,40 +22,10 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="summary">
-            <h1>Resumen del Flujo de Efectivo</h1>
-            <!-- Aquí puedes mostrar el resumen del flujo de efectivo actual -->
-        </section>
-        <section class="alerts">
-            <h2>Alertas</h2>
-            <!-- Aquí puedes mostrar alertas visuales -->
-        </section>
-        <section class="fast-actions">
-            <h2>Acciones Rápidas</h2>
-            <div class="quick-action">
-                <a href="">
-                    <img src="img/caja-registradora.png" alt="Ícono de Caja Registradora">
-                    <p>Abrir Caja Registradora</p>
-                </a>
-            </div>
-            <div class="quick-action">
-                <a href="">
-                    <img src="img/agregar.png" alt="Ícono de Agregar Producto">
-                    <p>Agregar Producto</p>
-                </a>
-            </div>
-            <div class="quick-action">
-                <a href="">
-                    <img src="img/extracto-bancario.png" alt="Ícono de Registrar Venta">
-                    <p>Registrar Venta</p>
-                </a>
-            </div>
-        <!-- Agrega más acciones rápidas según sea necesario -->
-        </section>
-    </main>
+    <main></main>
     <footer>
         <p>&copy; 2023 CashFlow Master</p>
     </footer>
 </body>
+<script src="includes/index.js"></script>
 </html>
