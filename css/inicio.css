@@ -1,0 +1,39 @@
+main {
+    padding: 20px;
+    text-align: center;
+}
+.menu-summary, .menu-alerts, .fast-actions {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.menu-summary a, .menu-alerts a, .fast-actions a, .fast-actions h3{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}  
+.quick-action {
+    background-color: #ececec;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+}
+.quick-action img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+
+}
+.quick-action p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.quick-action:hover {
+    color: #1e90ff;
+    transform: scale(1.01);
+}
+
+
