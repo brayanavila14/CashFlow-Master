@@ -1,11 +1,17 @@
 <?php 
-$hostname = 'localhost';
-$username = 'AdminSky';
-$password = 'Administrador#1428';
-$db_name = 'sistema_caja';
-$conexion = mysqli_connect($hostname, $username, $password, $db_name);
+header("Location: ../index.php");
 
-if (!$conexion) {
-    echo '<div>desconectado</div>';   
+$database = 'database.db';
+try {
+    $db = new SQLite3($database);
+    die("conexion exitosa");
+} catch (Exception $e) {
+    die("Error al abrir la base de datos: " . $e->getMessage());
 }
+
+if (!$db) {
+    die("No se pudo abrir la base de datos.");
+}
+
+echo "Conexión exitosa a la base de datos.";
 ?>

@@ -1,17 +1,16 @@
-main {
-    padding: 20px;
-    text-align: center;
-}
-.menu-summary, .menu-alerts, .fast-actions {
+.contenedor{
     background-color: white;
     padding: 20px;
     margin-bottom: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.menu-summary a, .menu-alerts a, .fast-actions a, .fast-actions h3{
+.arrays a{
+    background-color: #1e90ff;
+}
+a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.9);
-}  
+}
 .quick-action {
     background-color: #ececec;
     display: inline-block;
@@ -35,5 +34,3 @@ main {
     color: #1e90ff;
     transform: scale(1.01);
 }
-
-
